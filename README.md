@@ -14,7 +14,7 @@ The `cdk.json` file tells the CDK Toolkit how to execute your app.
 
 ## How to deploy to AWS
 
-- install AWS CLI, and all necessary tools, set the AWS Access keys (and a default AWS region)
+- install AWS CLI, the CDK CLI, and all necessary dependencies, set your AWS Access keys (and a default AWS region)
 - `cdk deploy --all` to deploy the entire stack
 - go to Lambda console and test the function
 - change the params in Systems Manager Parameter Store and invoke Lambda again to see that Lambda takes always the latest values of the parameters in Systems Manager.
